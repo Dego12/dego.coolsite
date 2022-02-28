@@ -1,4 +1,4 @@
-package com.dego.profile;
+package com.dego.awscoolsite.profile;
 
 import java.util.Objects;
 import java.util.UUID;
