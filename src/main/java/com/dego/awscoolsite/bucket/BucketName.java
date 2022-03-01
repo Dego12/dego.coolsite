@@ -1,8 +1,8 @@
 package com.dego.awscoolsite.bucket;
-
+/*
 public enum BucketName {
 
-    PROFILE_IMAGE("dego-image-upload-123");
+    PROFILE_IMAGE("dego-cool-site");
 
     private final String bucketName;
 
@@ -14,3 +14,6 @@ public enum BucketName {
         return bucketName;
     }
 }
+
+
+ */
