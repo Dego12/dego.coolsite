@@ -14,7 +14,7 @@ import java.util.UUID;
 @CrossOrigin("*")
 public class UserProfileController {
 
-    private UserProfileService userProfileService;
+    private final UserProfileService userProfileService;
 
     @Autowired
     public UserProfileController(UserProfileService userProfileService){
@@ -24,7 +24,7 @@ public class UserProfileController {
     @GetMapping
     public List<UserProfile> getUserProfiles()
     {
-        return this.userProfileService.getUserProfiles();
+        return userProfileService.getUserProfiles();
     }
 
     @PostMapping(
